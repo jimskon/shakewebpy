@@ -1,4 +1,4 @@
-# PythonNameLookup
+# PythonNameLookup - shakewebpy
 Set up Apache 2 for CGI
 https://code-maven.com/set-up-cgi-with-apache
 
@@ -16,6 +16,9 @@ sudo chown www-data.www-data /var/www/.local
 
 sudo chown www-data.www-data /var/www/.cache
 
+sudo apt install python3-pip
+
+
 sudo -H -u www-data pip3 install sortedcontainers
-# skakewebpy
-# shakewebpy
+
+pip install sortedcontainers
