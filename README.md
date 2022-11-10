@@ -4,6 +4,10 @@ https://code-maven.com/set-up-cgi-with-apache
 
 Must install libraries for www-data!
 
+sudo mkdir /var/www/html/shakewebpy/
+
+sudo chmod ubuntu /var/www/html/shakewebpy
+
 sudo mkdir /var/www/.local
 
 sudo mkdir /var/www/.cache
