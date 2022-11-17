@@ -20,7 +20,7 @@ def lookupWords(index,filename):
       print(searchTerm,"not found,")
     searchTerm=input("\nEnter word to look up, return to end:")
 
-file="/home/class/shake/Shakespeare.txt"
+file="/var/www/html/shakewebpy/shakespeare.txt"
 wordIndex=textindex(file)
 print("Total words:",wordIndex.wordcount())
 lookupWords(wordIndex,file)

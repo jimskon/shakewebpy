@@ -27,7 +27,7 @@ function getMatches(){
     // Clear the previous results
     document.querySelector('#searchresults').innerHTML = "";
 
-    fetch('/cgi-bin/skon_shakewebpy.py?word='+searchStr, {
+    fetch('/cgi-bin/shakewebpy.py?word='+searchStr, {
 	method: 'get'
     })
 	.then (response => response.text() )

@@ -5,7 +5,7 @@
 import cgi
 import cgitb
 cgitb.enable()
-fileName="/home/class/shake/Shakespeare.txt"
+fileName="/var/www/html/shakewebpy/shakespeare.txt"
 
 def removePunctuation(s):
   "Remove all punctuation from a string"
